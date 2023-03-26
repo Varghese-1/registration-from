@@ -1,0 +1,11 @@
+label{
+    display: flexbox;
+    width: 30%;
+}
+.form{
+    border-style: solid;
+    border-width: medium;
+    margin-left: 350px;
+    margin-right: 350px;
+    
+}

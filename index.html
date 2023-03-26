@@ -1,0 +1,133 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fromtyle.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="input.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+  </head>
+<body >
+    
+
+<h1 class="container w-50" id="a"><u>STUDENT REGISTRATION FORM</u></h1>
+<form style="background-color:rgb(32, 9, 165);" class="form">
+     <label class="conatiner" id="b" for="u1"><b>FIRST NAME:</b></label>
+    <input   type="text" id="u1" placeholder="Enter your name">(max 30 char a-z and A-z)<br>
+    <br>
+   <!--
+    <label class="container w-30" id="b" for="f1"><b>First Name</b></label>
+    <input class="container " id="c" type="text" id="f1" placeholder="your name">
+    -->
+    <label class="conatiner " id="b" for="u2"><b>LAST NAME:</b></label>
+    <input  type="text" id="u2" placeholder=" your last name">(max 30 char a-z and A-z)<br>
+      <br>
+<label class="conatiner " id="b" for="u3"><b>Date of Birth:</b></label>
+<input   type="date" id="u3" ><br>
+<br>
+<label class="conatiner " id="b" for="u4"><b>E-MAIL ID:</b></label>
+    <input   type="text" id="u4" placeholder=" your email-id"><br>
+    <br>
+    
+    <label class="conatiner " id="b" for="u5"><b>MOBILE NUMBER:</b></label>
+    <input type="text" id="u5" placeholder=" enter your number">(10 number)<br>
+    <br>
+    <label class="conatiner " id="b" for="u6"><b>GENDER:</b></label>
+    <input   type="radio"  name="gender" id="u6"  value="male">male
+    <input   type="radio"  name="gender" id="u6"  value="female">female
+    <input  type="radio"  name="gender"  id="u6"  value="other">others
+    <br>
+    <br>
+     <label class="conatiner"id="b" fo="u7"><b>ADDRESS:</b></label>
+     <textarea id="u7" placeholder="enter your address"></textarea>
+     <br>
+     <br>
+
+     <label class="conatiner" id="b" for="u8"><b>CITY:</b></label>
+     <input type="text" id="u8" placeholder="your city">(max 30 char a-z and A-z)<br>
+     <br>
+     <label class="conatiner"id="b" for="u9"><b>PINCODE</b></label>
+     <input type="text" id="u9">
+     <br>
+     <br>
+     <label class="conatiner" id="b" for="u10"><b>STATE:</b></label>
+     <input type="text" id="u10" placeholder="your state">(max 30 char a-z and A-z)<br>
+     <br>
+     <label class="conatiner" id="b" for="u11" ><b>COUNTRY</b></label>
+     <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="pakistan">
+    <option value="germany">
+    <option value="poland">
+    <option value="dubai">
+    <option value="india">
+  </datalist><br>
+  <br>
+  <label class="conatiner " id="b" for="u12"><b>HOBBIES:</b></label>
+  <!-- <label class="form-check-label" for="u12">drawing</label>-->
+ <input class=""form-check-input" type="checkbox" vlaue="paainting"id="u12">drawing
+  <input class="form-check-input" type="checkbox" value="painting" id="u12" >painting
+  <!--<label class="form-check-label" for="u12">painting</label>-->
+  <input class="form-check-input" type="checkbox" value="fotball player" id="u12">football player>
+  <!--<label class="form-check-label" for="u12"> football player</label>--><br>
+  <input style="margin-left:32%;" type="text" value="others" id="u13">
+  <br>
+  <br>
+
+   <label class="conatiner " id="b" for="u14"><b>QUALIFICATIONS:</b></label>
+   <table style="margin-left:  40px;margin-top: 5px ;">
+    <tr>
+    <th>sl.no</th>
+    <th> Examination</th>
+    <th style="text-align: center;" >Board</th>
+    <th style="text-align: center;">percentage</th>
+    <th style="text-align: center;"> year of passing</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>class X </td>
+    <td ><input  type="text" ></td>
+    <td><input  type="text" ></td>
+    <td><input  type="text" ></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>class XII</td>
+    <td><input  type="text" ></td>
+    <td><input  type="text" ></td>
+    <td><input  type="text" ></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Graduation</td>
+    <td><input  type="text" ></td>
+    <td><input  type="text" ></td>
+    <td><input  type="text" ></td>
+   </tr>
+   <tr>
+    <td>3</td>
+    <td>Masters</td>
+    <td><input  type="text" ></td>
+    <td><input  type="text" ></td>
+    <td><input  type="text" ></td><br>
+     </tr>
+   </table>
+   <h6 style="padding-left: 230px;">(10 charmax)</h6>
+ <!--<h6 style="padding-left: 560px; padding-bottom: 80px;">(upto 2 decimals)</h6>-->
+ <label class="conatiner" id="b" for="u15"><b>COURSES<br>APPLIED FOR: </b></label>
+ <input type="radio" name="course applied for " id="u15" value="BCA">BCA
+ <input type="radio" name="course applied for " id="u15" value="B.com>">B.com
+ <input type="radio" name="course applied for " id="u15" value="B.SC">B.SC
+ <input type="radio" name="course applied for " id="u15" value="B.A">B.A
+ <br>
+ <br>
+  
+ <input style="margin-left: 300px;" type="submit" value="submit">
+ <input style="margin-left: 3px;" type="submit" value="Reset">
+</form>
+</body>
+</html>
